@@ -592,17 +592,17 @@ var REGEXP_PRECEDER_PATTERN = '(?:^^\\.?|[+-]|\\!|\\!=|\\!==|\\#|\\%|\\%=|&|&&|&
 
   /** Given triples of [style, pattern, context] returns a lexing function,
     * The lexing function interprets the patterns to find token boundaries and
-    * returns a decoration list of the form
+    * returns a decoration list of the Form
     * [index_0, style_0, index_1, style_1, ..., index_n, style_n]
     * where index_n is an index into the sourceCode, and style_n is a style
     * constant like PR_PLAIN.  index_n-1 <= index_n, and style_n-1 applies to
     * all characters in sourceCode[index_n-1:index_n].
     *
-    * The stylePatterns is a list whose elements have the form
+    * The stylePatterns is a list whose elements have the Form
     * [style : string, pattern : RegExp, DEPRECATED, shortcut : string].
     *
     * Style is a style constant like PR_PLAIN, or can be a string of the
-    * form 'lang-FOO', where FOO is a language extension describing the
+    * Form 'lang-FOO', where FOO is a language extension describing the
     * language of the portion of the token in $1 after pattern executes.
     * E.g., if style is 'lang-lisp', and group 1 contains the text
     * '(hello (world))', then that portion of the token will be passed to the
@@ -1161,7 +1161,7 @@ var REGEXP_PRECEDER_PATTERN = '(?:^^\\.?|[+-]|\\!|\\!=|\\!==|\\#|\\%|\\%=|&|&&|&
   /** Register a language handler for the given file extensions.
     * @param {function (Object)} handler a function from source code to a list
     *      of decorations.  Takes a single argument job which describes the
-    *      state of the computation.   The single parameter has the form
+    *      state of the computation.   The single parameter has the Form
     *      {@code {
     *        sourceCode: {string} as plain text.
     *        decorations: {Array.<number|string>} an array of style classes
