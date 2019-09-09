@@ -16,12 +16,18 @@
         "zendframework/zend-component-installer": "^1.0 || ^0.7 || ^1.0.0-dev@dev",
         "zendframework/zend-mvc": "^3.0.1",
         "zfcampus/zf-development-mode": "^3.0",
-        "zendframework/zend-db": "^2.10"
+        "zendframework/zend-db": "^2.10",
+        "zendframework/zend-mvc-console": "^1.2",
+        "zendframework/zend-test": "^3.3",
+        "zendframework/zend-authentication": "^2.7",
+        "zendframework/zend-form": "^2.14",
+        "zendframework/zend-paginator": "^2.8"
     },
     "autoload": {
         "psr-4": {
             "Application\\": "module/Application/src/",
-            "Core\\": "module/Core/src/"
+            "Core\\": "module/Core/src/",
+            "Administrador\\": "module/Administrador/src/"
         }
     },
     "autoload-dev": {

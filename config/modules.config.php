@@ -11,6 +11,13 @@
  * This should be an array of module namespaces used in the application.
  */
 return [
+    'Administrador',
+    'Zend\Paginator',
+    'Zend\Form',
+    'Zend\InputFilter',
+    'Zend\Filter',
+    'Zend\Hydrator',
+    'Zend\Mvc\Console',
     'Zend\Db',
     'Zend\Router',
     'Zend\Validator',

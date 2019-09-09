@@ -34,5 +34,6 @@ class FormElementErrorsFactory implements  FactoryInterface
         }
         return $helper;
     }
+}
 
 
