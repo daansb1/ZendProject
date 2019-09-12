@@ -25,9 +25,10 @@
     },
     "autoload": {
         "psr-4": {
+            "User\\": "module/User/src/",
             "Application\\": "module/Application/src/",
-            "Core\\": "module/Core/src/",
-            "Administrador\\": "module/Administrador/src/"
+            "Core\\": "module/Core/src/"
+
         }
     },
     "autoload-dev": {

@@ -22,5 +22,6 @@ return [
     'Zend\Validator',
     'Application',
     'Core',
-    'Administrador',
+    'User',
+
 ];
