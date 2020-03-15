@@ -16,19 +16,29 @@
         "zendframework/zend-component-installer": "^1.0 || ^0.7 || ^1.0.0-dev@dev",
         "zendframework/zend-mvc": "^3.0.1",
         "zfcampus/zf-development-mode": "^3.0",
-        "zendframework/zend-db": "^2.10",
-        "zendframework/zend-mvc-console": "^1.2",
-        "zendframework/zend-test": "^3.3",
-        "zendframework/zend-authentication": "^2.7",
-        "zendframework/zend-form": "^2.14",
-        "zendframework/zend-paginator": "^2.8"
+        "zendframework/zend-db": "^2.9",
+        "zendframework/zend-cache": "^2.7",
+        "zendframework/zend-mvc-form": "^1.0",
+        "zendframework/zend-json": "^3.0",
+        "zendframework/zend-mvc-console": "^1.1",
+        "zendframework/zend-mvc-i18n": "^1.0",
+        "zendframework/zend-mvc-plugins": "^1.0",
+        "zendframework/zend-session": "^2.8",
+        "zendframework/zend-servicemanager-di": "^1.1",
+        "zendframework/zend-mail": "^2.8",
+        "zendframework/zend-authentication": "^2.5",
+        "zendframework/zend-hydrator": "^2.3",
+        "zendframework/zend-math": "^3.0",
+        "zendframework/zend-crypt": "^3.2",
+        "zendframework/zend-paginator": "^2.8",
+        "zendframework/zend-i18n-resources": "^2.5"
     },
     "autoload": {
         "psr-4": {
+            "Core\\": "module/Core/src/",
             "User\\": "module/User/src/",
-            "Application\\": "module/Application/src/",
-            "Core\\": "module/Core/src/"
-
+            "Auth\\": "module/Auth/src/",
+            "Application\\": "module/Application/src/"
         }
     },
     "autoload-dev": {
