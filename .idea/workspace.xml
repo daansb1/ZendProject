@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="86190809-bf68-4f15-9b0c-1bb0382d0ec0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable path="composer" />
+    </execution>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/true/punycode" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/zfcampus/zf-development-mode" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-authentication" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-cache" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-code" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-component-installer" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-config" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-console" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-crypt" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-db" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-di" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-escaper" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-eventmanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-filter" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-form" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-http" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-hydrator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-i18n" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-i18n-resources" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-inputfilter" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-json" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-loader" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mail" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-math" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mime" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-modulemanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-console" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-i18n" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-fileprg" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-flashmessenger" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-identity" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-mvc-plugin-prg" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-paginator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-router" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-servicemanager-di" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-session" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-stdlib" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-text" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-uri" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-validator" />
+      <path value="$PROJECT_DIR$/vendor/zendframework/zend-view" />
+      <path value="$PROJECT_DIR$/vendor/container-interop/container-interop" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1XKBtTHv3b06in8Aowbdp0eT7CI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ZF3\module\User\src\Listener" />
+      <recent name="C:\xampp\htdocs\ZF3\module\User\src\Form\Filter" />
+      <recent name="C:\xampp\htdocs\ZF3\module\User\view\user\index" />
+      <recent name="C:\xampp\htdocs\ZF3\module\User\src\Controller" />
+      <recent name="C:\xampp\htdocs\ZF3\public" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ZF3\module\Core\view" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86190809-bf68-4f15-9b0c-1bb0382d0ec0" name="Default Changelist" comment="" />
+      <created>1580785119948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580785119948</updated>
+      <workItem from="1580785122198" duration="3938000" />
+      <workItem from="1580821499197" duration="22251000" />
+      <workItem from="1580914197457" duration="2030000" />
+      <workItem from="1580930030847" duration="4506000" />
+      <workItem from="1580994314783" duration="3439000" />
+      <workItem from="1581080788715" duration="6795000" />
+      <workItem from="1581255810383" duration="66000" />
+      <workItem from="1581255890101" duration="1798000" />
+      <workItem from="1581346928715" duration="5005000" />
+      <workItem from="1581448668093" duration="4453000" />
+      <workItem from="1581507852584" duration="17832000" />
+      <workItem from="1581592957742" duration="394000" />
+      <workItem from="1581693466027" duration="298000" />
+      <workItem from="1581693820603" duration="601000" />
+      <workItem from="1582216723538" duration="4034000" />
+      <workItem from="1582223263915" duration="3079000" />
+      <workItem from="1582398062326" duration="9429000" />
+      <workItem from="1583586009009" duration="1770000" />
+      <workItem from="1583587823141" duration="1792000" />
+      <workItem from="1583590070250" duration="409000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1289" y="240" key="#com.intellij.ide.util.MemberChooser" timestamp="1580831456934">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1289" y="240" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1580831456934" />
+    <state x="1196" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581525145142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1196" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581525145142" />
+    <state x="627" y="552" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1580933514013">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="627" y="552" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580933514013" />
+    <state x="773" y="469" key="ComposerInitDialogKey" timestamp="1580821526670">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="773" y="469" key="ComposerInitDialogKey/0.0.1920.1040@0.0.1920.1040" timestamp="1580821526670" />
+    <state x="1254" y="274" key="FileChooserDialogImpl" timestamp="1582223260993">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1254" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1582223260993" />
+    <state x="1334" y="342" key="NewPhpClassDialog" timestamp="1581450883829">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1334" y="342" key="NewPhpClassDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1581450883829" />
+    <state x="1548" y="473" key="NewPhpFileDialog" timestamp="1580842470978">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1548" y="473" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1580842470978" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1581255871960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581255871960" />
+    <state x="693" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1583590155138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="693" y="380" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583590155138" />
+    <state x="1133" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1581083493297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1133" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1581083493297" />
+  </component>
+</project>
