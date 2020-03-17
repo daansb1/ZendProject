@@ -20,21 +20,19 @@
             </div>
         </div>
 
-        <div class="box-body">
-            <h2>Nome do Ticket</h2>
+        <h2><?= $this->escapeHtml($this->ticket->name); ?></h2>
 
-            <h2 class="text-danger">Atenção</h2>
-            <p>Ao deletar este ticket <strong>todos os arquivos e interações relacionados</strong> serão perdidos.</p>
-            <p >Tem serteza que deseja deletar este ticket? </p>
+        <h2 class="text-danger">Atenção</h2>
+        <p>Ao deletar este ticket <strong>todos os arquivos e interações relacionados</strong> serão perdidos.</p>
+        <p >Tem serteza que deseja deletar este ticket? </p>
 
 
-            <form action="">
-                <div class="box-footer">
-                    <button type="submit" class="btn btn-danger"><i class="fa fa-trash-o"></i> Deletar Ticket</button>
-                </div>
-            </form>
-        </div>
-
+        <?php echo $this->form()->openTag($this->form);?>
+            <?php echo $this->formHidden($this->form->get('csrf'));?>
+            <div class="box-footer">
+                <button type="submit" class="btn btn-danger"><i class="fa fa-trash-o"></i> Deletar Ticket</button>
+            </div>
+        <?php echo $this->form()->closeTag();?>
         <!-- /.box-body -->
 
     </div>

@@ -1,6 +1,5 @@
 <?php
 
-<<<<<<< HEAD
 use Core\Factories\TransportSmtpFactory;
 use Zend\Form\View\Helper\FormElementErrors;
 use Core\Factories\FormElementErrorsFactory;
@@ -10,24 +9,10 @@ return [
         'factories' => [
             'core.transport.smtp' => TransportSmtpFactory::class
         ]
-=======
-use Core\Factories\TransporteSmtpFactory;
-use Zend\Form\view\Helper\FormElementErrors;
-use Core\Factories\FormElementErrorsFactory;
-
-return[
-    'service_manager' => [
-        'factories' => [
-            'core.transport.smtp' => TransporteSmtpFactory::class
-
-        ]
-
->>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
     ],
     'view_helpers' =>[
         'factories' => [
             FormElementErrors::class => FormElementErrorsFactory::class
-<<<<<<< HEAD
         ]
     ],
     'view_helper_config' => [
@@ -54,11 +39,3 @@ return[
         ],
     ],
 ];
-=======
-
-        ]
-    ]
-];
-
-?>
->>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2

@@ -17,7 +17,6 @@ return [
         'host' => 'localhost',
         'database' => 'zf3_helpdesk',
         'username' => 'root',
-<<<<<<< HEAD
         'password' => ''
     ],
     'mail' => [
@@ -26,27 +25,11 @@ return [
         'port' => 2525, #Porta do servidor de e-mail Gmail 465
         'connection_class' => 'login', #Diz que será feito uma autenticação para disparar os e-mail
         'connection_config' => [
-            'from' => 'aa23457ed3-6b89ee@inbox.mailtrap.io', # DE!
-            'username' => '67fe6e740554e3', #E-Mail de autenticação
-            'password' => 'fb4207b3127042', #Senha do e-mail para autenticar
+            'from' => 'zf3napratica@teste.com', # DE!
+            'username' => '4b12bb0337b56a', #E-Mail de autenticação
+            'password' => 'ed264245c3eb25', #Senha do e-mail para autenticar
             //'ssl' => 'ssl', #Tipo do envio ssl => ssl para Gmail
             'auth' => 'CRAM-MD5',
-=======
-        'password' => 'root'
-
-    ],
-    'mail' => [
-        'name'  => 'smtp.mailtrap.io',
-        'host'  => 'smtp.mailtrap.io',
-        'port' => 2525,
-        'connection_class'  => 'login',
-        'connection_config' => [
-            'from' => 'aa23457ed3-6b89ee@inbox.mailtrap.io',
-            'username' => '67fe6e740554e3',
-            'password' => 'fb4207b3127042',
-            'auth' => 'CRAM-MD5',
-
->>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
         ],
     ],
 ];

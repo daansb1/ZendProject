@@ -7,17 +7,11 @@
 
 namespace Application;
 
-<<<<<<< HEAD
 use Application\Listener\CheckAuthenticationListener;
 use Zend\EventManager\EventInterface;
 use Zend\ModuleManager\Feature\BootstrapListenerInterface;
 
 class Module implements BootstrapListenerInterface
-=======
-
-
-class Module
->>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
 {
     const VERSION = '3.0.3-dev';
 
@@ -26,7 +20,6 @@ class Module
         return include __DIR__ . '/../config/module.config.php';
     }
 
-<<<<<<< HEAD
     /**
      * {@inheritdoc}
      */
@@ -39,6 +32,4 @@ class Module
 
         (new CheckAuthenticationListener())->attach($eventManager, 99);
     }
-=======
->>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
 }

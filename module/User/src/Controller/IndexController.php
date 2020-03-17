@@ -1,5 +1,4 @@
 <?php
-<<<<<<< HEAD
 
 namespace User\Controller;
 
@@ -29,6 +28,7 @@ class IndexController extends AbstractActionController
             $this->userForm->setData($this->getRequest()->getPost());
             if ($this->userForm->isValid()) {
                 $data = $this->userForm->getData();
+
                 try {
                     $user = $this->userTable->save($data);
 
@@ -71,8 +71,6 @@ class IndexController extends AbstractActionController
                     $this,
                     ['data' => $email]
                 );
-
-
 
                 $this->flashMessenger()->addSuccessMessage(
                     'Confirme sua solicitação no email informado'
@@ -149,35 +147,5 @@ class IndexController extends AbstractActionController
         }
 
         return $this->redirect()->toRoute('auth.login');
-=======
-/**
- * @link      http://github.com/zendframework/ZendSkeletonApplication for the canonical source repository
- * @copyright Copyright (c) 2005-2016 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   http://framework.zend.com/license/new-bsd New BSD License
- */
-
-namespace Application\Controller;
-
-use Zend\Mvc\Controller\AbstractActionController;
-use Zend\View\Model\ViewModel;
-
-class IndexController extends AbstractActionController
-{
-    public function registerAction()
-    {
-        return new ViewModel();
-    }
-    public function recoveryPasswordAction()
-    {
-        return new ViewModel();
-    }
-    public function newPasswordAction()
-    {
-        return new ViewModel();
-    }
-    public function confirmedEmailAction()
-    {
-        return new ViewModel();
->>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
     }
 }
