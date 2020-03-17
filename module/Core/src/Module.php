@@ -12,7 +12,7 @@ class Module implements BootstrapListenerInterface
 {
     public function onBootstrap(EventInterface $event)
     {
-        $serviceManager = $event->getApplication()->getServiceManager();
+        $serviceManager = $event->getApplication()->getServiceManager();  ;
 
         $translator = $serviceManager->get('translator');
         $translator->setLocale(\Locale::acceptFromHttp('pt_BR'));
