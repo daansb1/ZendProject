@@ -1,9 +1,18 @@
 <?= $this->doctype() ?>
+<<<<<<< HEAD
+=======
+<!DOCTYPE html>
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
 <html>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<<<<<<< HEAD
     <?= $this->headTitle('ZF3 na prática')->setSeparator(' - ')->setAutoEscape(false) ?>
+=======
+    <?=  $this->headTitle('Projeto Psicologos')->setSeparator(' - ')->setAutoEscape(false) ?>
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
 
     <?= $this->headMeta()
         ->appendName('viewport', 'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no')
@@ -12,6 +21,10 @@
     <!-- Le styles -->
     <?= $this->headLink(['rel' => 'shortcut icon', 'type' => 'image/vnd.microsoft.icon', 'href' => $this->basePath() . '/img/favicon.ico'])
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
         ->prependStylesheet($this->basePath('css/style.css'))
         ->prependStylesheet($this->basePath('dist/css/skins/_all-skins.min.css'))
         ->prependStylesheet($this->basePath('dist/css/AdminLTE.min.css'))
@@ -20,6 +33,11 @@
         ->prependStylesheet($this->basePath('css/bootstrap.min.css'))
     ?>
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -36,11 +54,19 @@
 
     <header class="main-header">
         <!-- Logo -->
+<<<<<<< HEAD
         <a href="/" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>ZF3</b></span>
             <!-- logo for regular state and mobile devices -->
             <span class="logo-lg"><b>ZF3</b> ná prática</span>
+=======
+        <a href="dashboard.html" class="logo">
+            <!-- mini logo for sidebar mini 50x50 pixels -->
+            <span class="logo-mini"><b>ZF3</b></span>
+            <!-- logo for regular state and mobile devices -->
+            <span class="logo-lg"><b>ZF3</b> Project</span>
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -58,23 +84,39 @@
                     <!-- User Account: style can be found in dropdown.less -->
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<<<<<<< HEAD
                             <?= $this->gravatar($this->identity()->email, ['img_size'    => 40,])->setAttributes(['class' => 'user-image'])->getImgTag(); ?>
                             <span class="hidden-xs"><?= $this->identity()->name; ?></span>
+=======
+                            <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Imag">
+                            <span class="hidden-xs"></span>
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
                             <li class="user-header">
+<<<<<<< HEAD
                                 <?= $this->gravatar($this->identity()->email, ['img_size'    => 80,])->setAttributes(['class' => 'img-circle'])->getImgTag(); ?>
 
                                 <p>
                                     <?= $this->identity()->name; ?>
+=======
+                                <img src="dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
+
+                                <p>
+                                    Alexander Pierce
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
                                 </p>
                             </li>
 
                             <!-- Menu Footer-->
                             <li class="user-footer">
                                 <div class="pull-right">
+<<<<<<< HEAD
                                     <a href="<?= $this->url('auth.logout'); ?>" class="btn btn-default btn-flat">Sign out</a>
+=======
+                                    <a href="login.html" class="btn btn-default btn-flat">Sign out</a>
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
                                 </div>
                             </li>
                         </ul>
@@ -96,14 +138,23 @@
                 <li class="header">MAIN NAVIGATION</li>
 
                 <li>
+<<<<<<< HEAD
                     <a href="<?= $this->url('dashboard'); ?>">
+=======
+                    <a href="dashboard.html">
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
                         <i class="fa fa-dashboard"></i> <span>Dashboard</span>
                     </a>
                 </li>
 
                 <li>
+<<<<<<< HEAD
                     <a href="<?= $this->url('ticket', ['controller' => 'Ticket', 'action' => 'plus']); ?>">
                         <i class="fa fa-plus"></i> <span>Novo Ticket</span>
+=======
+                    <a href="plus.html">
+                        <i class="fa fa-plus"></i> <span>Nova Consulta</span>
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
                     </a>
                 </li>
 
@@ -116,16 +167,26 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
+<<<<<<< HEAD
         <?= $this->content ?>
+=======
+
+        <?= $this->content ?>
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
     </div>
     <!-- /.content-wrapper -->
 
     <footer class="main-footer">
+<<<<<<< HEAD
         <div class="pull-right hidden-xs">
             <b>Version</b> 2.4.0
         </div>
         <strong>Copyright &copy; 2014-2016 <a href="https://adminlte.io">Almsaeed Studio</a>.</strong> All rights
         reserved.
+=======
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
     </footer>
 </div>
 <!-- ./wrapper -->
@@ -139,6 +200,16 @@
     ->prependFile($this->basePath('js/jquery.min.js'))
 ?>
 
+<<<<<<< HEAD
 <?= $this->inlineScript() ?>
 </body>
 </html>
+=======
+
+<?= $this->inlineScript() ?>
+</body>
+</html>
+
+
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2

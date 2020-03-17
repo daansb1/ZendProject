@@ -17,6 +17,7 @@ return [
         'host' => 'localhost',
         'database' => 'zf3_helpdesk',
         'username' => 'root',
+<<<<<<< HEAD
         'password' => ''
     ],
     'mail' => [
@@ -30,6 +31,22 @@ return [
             'password' => 'fb4207b3127042', #Senha do e-mail para autenticar
             //'ssl' => 'ssl', #Tipo do envio ssl => ssl para Gmail
             'auth' => 'CRAM-MD5',
+=======
+        'password' => 'root'
+
+    ],
+    'mail' => [
+        'name'  => 'smtp.mailtrap.io',
+        'host'  => 'smtp.mailtrap.io',
+        'port' => 2525,
+        'connection_class'  => 'login',
+        'connection_config' => [
+            'from' => 'aa23457ed3-6b89ee@inbox.mailtrap.io',
+            'username' => '67fe6e740554e3',
+            'password' => 'fb4207b3127042',
+            'auth' => 'CRAM-MD5',
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
         ],
     ],
 ];

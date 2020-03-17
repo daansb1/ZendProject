@@ -6,10 +6,15 @@
  * @see https://docs.zendframework.com/tutorials/advanced-config/#environment-specific-application-configuration
  */
 
+<<<<<<< HEAD
 use Zend\Db\Adapter\Adapter;
 use Zend\Db\Adapter\AdapterServiceFactory;
 use Zend\Authentication\AuthenticationService;
 use Auth\Authentication\Factory\AuthenticationFactory;
+=======
+use Zend\Db\Adapter;
+use Zend\Db\Adapter\AdapterServiceFactory;
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
 
 return [
     // Retrieve list of modules used in this application.
@@ -71,6 +76,7 @@ return [
     // Initial configuration with which to seed the ServiceManager.
     // Should be compatible with Zend\ServiceManager\Config.
     'service_manager' => [
+<<<<<<< HEAD
         'aliases' => [
             'translator' => 'MvcTranslator',
         ],
@@ -78,5 +84,9 @@ return [
             Adapter::class => AdapterServiceFactory::class,
             AuthenticationService::class => AuthenticationFactory::class
         ]
+=======
+        Adapter::class => AdapterServiceFactory::class,
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
     ],
 ];

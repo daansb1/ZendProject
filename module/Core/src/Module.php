@@ -1,5 +1,6 @@
 <?php
 
+<<<<<<< HEAD
 namespace Core;
 
 
@@ -30,9 +31,21 @@ class Module implements BootstrapListenerInterface
 
         AbstractValidator::setDefaultTranslator($translator);
     }
+=======
+
+namespace Core;
+
+
+class Module
+{
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
 
     public function getConfig()
     {
         return include __DIR__ . '/../config/module.config.php';
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2

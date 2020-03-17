@@ -12,6 +12,7 @@
  */
 return [
     'Zend\Paginator',
+<<<<<<< HEAD
     'Zend\Mail',
     'Zend\ServiceManager\Di',
     'Zend\Mvc\Plugin\FilePrg',
@@ -34,4 +35,18 @@ return [
     'User',
     'Auth',
     'Application',
+=======
+    'Zend\Form',
+    'Zend\InputFilter',
+    'Zend\Filter',
+    'Zend\Hydrator',
+    'Zend\Mvc\Console',
+    'Zend\Db',
+    'Zend\Router',
+    'Zend\Validator',
+    'Application',
+    'Core',
+    'User',
+
+>>>>>>> 48b67e3960daee9a36298dac84c713c21d8817a2
 ];
