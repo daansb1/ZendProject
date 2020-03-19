@@ -3,23 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="86190809-bf68-4f15-9b0c-1bb0382d0ec0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/autoload/global.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/autoload/global.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/modules.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/modules.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/src/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/view/application/ticket/delete.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/application/ticket/delete.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/view/application/ticket/edit.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/application/ticket/edit.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/view/application/ticket/plus.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/application/ticket/plus.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/Application/view/layout/layout.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Core/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Core/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Core/src/Factories/FormElementErrorsFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Core/src/Factories/FormElementErrorsFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/Core/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/Core/src/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/config/module.config.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/config/module.config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Controller/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Controller/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/src/Module.php" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/src/Module.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/view/user/index/new-password.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/view/user/index/new-password.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/User/view/user/index/register.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/module/User/view/user/index/register.phtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +137,9 @@
       <workItem from="1584317628125" duration="105000" />
       <workItem from="1584317753203" duration="5319000" />
       <workItem from="1584455611138" duration="506000" />
-      <workItem from="1584468675990" duration="540000" />
+      <workItem from="1584468675990" duration="1140000" />
+      <workItem from="1584541742688" duration="2221000" />
+      <workItem from="1584564795397" duration="688000" />
     </task>
     <servers />
   </component>
@@ -194,10 +179,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1581255871960" />
-    <state x="693" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584468676067">
+    <state x="693" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1584564883214">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="693" y="380" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584468676067" />
+    <state x="693" y="380" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584564883214" />
     <state x="1133" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1581083493297">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
