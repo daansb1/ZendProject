@@ -65,7 +65,7 @@ class SendRecoverPasswordListener extends AbstractListenerAggregate
             $data['host'] = $this->getUrl($controller->getRequest());
 
             $mail = new Mail($transport, $view, 'user/mailer/recover-password');
-            $mail->setSubject('Nova senha, Help Desk ZF3 na prática')
+            $mail->setSubject('Nova senha, Help Desk Projeto')
                 ->setTo(strtolower(trim($user->email)))
                 ->setData($data)
                 ->prepare()

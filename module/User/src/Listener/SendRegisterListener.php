@@ -53,7 +53,7 @@ class SendRegisterListener extends AbstractListenerAggregate
         $data['host'] = $this->getUrl($controller->getRequest());
 
         $mail = new Mail($transport, $view, 'user/mailer/register');
-        $mail->setSubject('Cadastro help Desk ZF3 na prática')
+        $mail->setSubject('Cadastro help Desk Projeto')
             ->setTo(strtolower(trim($user->email)))
             ->setData($data)
             ->prepare()
